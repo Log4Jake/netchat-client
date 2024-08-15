@@ -42,7 +42,7 @@ err_t tcp_connect_callback(void *arg, struct altcp_pcb *tpcb, err_t err);
 
 bool run_main = false;
 bool lock_due_to_http = false;
-
+// Comment to trigger action
 // This is the official NETCHAT server located at netchat.tkbstudios.com
 // If you want to use your own server, set it here.
 // Make sure to use an IP ADDRESS in ASCII format!
